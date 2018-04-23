@@ -4,5 +4,5 @@ dist: trusty
 before_script:
     - "pip freeze"
 
-script:
-    - bash -xve ./test/travis_ros_install.bash
+#script:
+#    - bash -xve ./test/travis_ros_install.bash
