@@ -1,18 +1,8 @@
 sudo: required
 dist: trusty
 
-python:
-    - 3.3
-    - 3.4
-
 before_install:
     - pip freeze
-
-install:
-    - pip install catkin_pkg
-    - pip install empy
-    - pip install pyyaml
-    - pip install rospkg
 
 script:
     - bash -xve ./test/travis_ros_install.bash
